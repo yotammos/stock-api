@@ -3,14 +3,14 @@ package main
 import (
 	"context"
 	"github.com/gorilla/mux"
+	"github.com/yotammos/stock-api/clients"
+	"github.com/yotammos/stock-api/data"
+	"github.com/yotammos/stock-api/handlers"
 	"gopkg.in/robfig/cron.v3"
 	"log"
 	"net/http"
 	"os"
 	"os/signal"
-	"stock-api/clients"
-	"stock-api/data"
-	"stock-api/handlers"
 	"time"
 )
 
